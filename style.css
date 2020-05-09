@@ -1,0 +1,359 @@
+@font-face {
+    font-family: Loadtz;
+    src: url(nyFonts/Loadtz.ttf);
+}
+@font-face {
+    font-family: Takeshi;
+    src: url(nyFonts/Takeshi.otf);
+}
+@font-face {
+    font-family: Girassol-Regular;
+    src: url(nyFonts/Girassol-Regular.ttf);
+}
+html, body{
+    margin: 20px;
+    padding: 0px;
+    color: red;
+    background-image: url(images/background.gif);
+    
+}
+header{
+    border:2px solid;
+    border-radius:25px;
+    margin:0px;
+    padding:1px;	
+    height:180px;
+    background-color:#12bda6;
+}
+main{
+    box-shadow: 5px 5px 10px #AEEEEE;
+    background-image: url(images/fon.jpg);
+    margin-left: 2px;
+}
+footer{
+    height: 100px;
+    clear: left;
+}
+h1{
+    font-family: Verdana;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    padding-top: 23px;
+    color: peachpuff;
+    text-align: center;
+}
+h2
+{
+    font-family: Verdana;
+    color: peru ;
+}
+p {
+    text-indent: 20px; 
+    text-align: justify;
+   }
+#table
+{
+    margin: auto;
+}
+#maket {
+	cursor: default;
+    margin-top: 40px;	
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.up{
+    padding: 20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    margin: -20px 100 20 20px;
+    z-index: 100;
+} 
+
+ul.cssmenu {
+    padding: 0;
+    margin: 15;
+    list-style: none;
+    width: 100%;
+} 
+
+ul.cssmenu li {
+    float: left;
+} 
+ul.cssmenu li a, ul.cssmenu li a:visited {
+	display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: darkblue;
+    background-color: skyblue;
+    width: 180px;
+    text-decoration: none;
+    font-size: 23;
+    text-align: center;
+    padding: 9px;
+}
+ul.cssmenu li a:hover {
+    color: skyblue;
+    background-color: darkblue;
+}
+
+.blue{
+    color: black;
+    font-size: 24;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#sun
+{
+    margin-left: 240px;
+}
+#venera{
+    margin-left: 180px;
+}
+
+#menu{
+	box-shadow: 5px 5px 10px #1C1C1C;
+    background-color: #AFEEEE;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+
+#content td{
+    text-align: left;
+}
+
+
+
+#all{
+    margin-left: 212px;
+    margin-top: 20px;
+    
+}
+
+.blue{
+    position: absolute;
+    margin: -480px 2 200 280px;
+   
+}
+
+#maket {
+	cursor: default;
+    margin-top: 40px;	
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+   }
+
+h1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: peachpuff;
+    text-align: center;
+}
+
+
+.up{
+    padding: 20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+
+#validationError
+{
+    color: red;
+    font-size: 25px;
+}
+.blue{
+    color: black;
+    font-size: 24;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+#menu{
+	box-shadow: 5px 5px 10px #1C1C1C;
+    background-color: #AFEEEE;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+
+
+#content td{
+    text-align: left;
+}
+
+
+
+#all{
+    margin-left: 212px;
+    margin-top: 20px;
+    
+}
+
+.spaceInfo{
+    background-color: skyblue;
+    width: 250px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+.phone{
+    background-color: skyblue;
+    width: 250px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+.button{
+    width: 160px;
+    font-size: 28;
+    text-align: center;
+    border-radius:25px;
+}
+
+.age{
+    background-color: skyblue;
+    width: 100px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+.data{
+    background-color: skyblue;
+    width: 250px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+.color{
+    background-color: skyblue;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+.url{
+    background-color: skyblue;
+    width: 250px;
+    text-decoration: none;
+    font-size: 25;
+    text-align: center;
+}
+
+ input:focus {
+  background: #adff66;
+  outline: none;  /* убрать рамку */
+}
+
+
+.name{
+    position: absolute;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+
+ .blue{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -500px;
+   
+}
+.cvet{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -450px;
+   
+   
+}
+.beg{
+    position: absolute;
+    margin-left: 780px;
+    margin-top: -500px;
+   
+}
+.bel{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -350px;
+   
+}
+.rosov{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -500px;
+}
+
+   
+ 
+.a1{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -460px;
+   font-size: 60px;
+    color: darkblue;
+    text-align: center;
+    text-decoration: none;
+}
+.a2{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -250px;
+   font-size: 50px;
+    color: #731196;
+    text-align: center;
+    text-decoration: none;
+}
+.a3{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -480px;
+   font-size: 30px;
+    color:#ff3b00;
+    text-align: center;
+    text-decoration: none;
+}
+.a4{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -320px;
+   font-size: 40px;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+}
+.a5{
+    position: absolute;
+    margin-left: 815px;
+    margin-top: -400px;
+   font-size: 40px;
+    color: mediumvioletred;
+    text-align: center;
+    text-decoration: none;
+}
+
+

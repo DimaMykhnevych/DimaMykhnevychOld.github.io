@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css">
+        <link href="css/style.css" type="text/css" rel = "stylesheet"/ >
+    </head>
+    <body>
+        <div id="maket">
+            <header>
+                <div>
+                    <div class="logo">
+                        <a href="task1.html"></a>
+
+                    </div>
+
+                    <h1>Результаты отправки формы</h1>
+                    
+                    
+                 </div>
+                </header>
+            </div>
+        
+            <main>
+                <div id = "all">
+                    <p><strong>Email</strong>: <div id = "email"></div></p>
+                    <p><strong>Phone</strong>: <div id = "phone"></div></p>
+                    <p><strong>Age:</strong> <div id = "age"></div></p>
+                    <p><strong>Birth Date:</strong> <div id = "birthDate"></div></p>
+                    <p><strong>Wanted Info about space:</strong> <div id = "title"></div></p>
+                    <p><strong>Favourite space site:</strong> <div id = "favSite"></div></p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function insert()
+            {
+                let email = localStorage.getItem('email');
+                let phone = localStorage.getItem('phone');
+                let age = localStorage.getItem('age');
+                let birth = localStorage.getItem('birthDate');
+                let title = localStorage.getItem('title');
+                let favSite = localStorage.getItem('favSite');
+                document.getElementById("email").innerHTML = email;
+                document.getElementById("phone").innerHTML = phone;
+                document.getElementById("age").innerHTML = age;
+                document.getElementById("birthDate").innerHTML = birth;
+                document.getElementById("title").innerHTML = title;
+                document.getElementById("favSite").innerHTML = favSite;
+            }
+            insert();
+        </script>
+            </main>
+            <footer>
+                <h6><font color="#FFDAB9">© SolarSystem.ua, 2009-2020 | Все права защищены</font></h6>
+                </footer>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="kuplu.xsl"?>
+
+<advertisment>
+<buy>
+  <cd>
+    <number>1</number>
+    <good>Piano</good>
+    <tel>1234755423</tel>
+    <price>4567</price>
+  </cd>
+  <cd>
+    <number>2</number>
+    <good>Violin</good>
+    <tel>0312445679</tel>
+    <price>4576</price>
+  </cd>
+  <cd>
+    <number>3</number>
+    <good>Drum</good>
+    <tel>2154789654</tel>
+    <price>1205</price>
+  </cd>
+  <cd>
+    <number>4</number>
+    <good>Pipe</good>
+    <tel>2154685023</tel>
+    <price>1234</price>
+  </cd>
+  <cd>
+    <number>5</number>
+    <good>Guitar</good>
+    <tel>8452139785</tel>
+    <price>1546</price>
+  </cd>
+    <cd>
+    <number>6</number>
+    <good>Flute</good>
+    <tel>8412032165</tel>
+    <price>9512</price>
+  </cd>
+ <cd>
+    <number>7</number>
+    <good>Flute</good>
+    <tel>8412032165</tel>
+    <price>3212</price>
+  </cd>
+  <cd>
+    <number>8</number>
+    <good>Cello</good>
+    <tel>2154876231</tel>
+    <price>4561</price>
+  </cd>
+  <cd>
+    <number>9</number>
+    <good>Synthesizer</good>
+    <tel>3218456203</tel>
+    <price>6215</price>
+  </cd>
+  <cd>
+    <number>10</number>
+    <good>Saxophone</good>
+    <tel>5124896510</tel>
+    <price>6154</price>
+  </cd>
+  <cd>
+    <number>11</number>
+    <good>Clarinet</good>
+    <tel>8456120312</tel>
+    <price>2154</price>
+  </cd>
+ 
+</buy>
+</advertisment>

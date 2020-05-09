@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Canvas picture</title>
+    <link rel="shortcut icon" href="images/sun.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/style.css" type="text/css" rel = "stylesheet"/ >
+       <meta charset="UTF-8">
+       <META NAME="description" CONTENT="Данный сайт посвящен космосу">
+        <META Name="autor" Content="Михневич Д.К, E-Mail:mykhnevych@gmail.com"> 
+   </head>
+   <body>
+    <a name="up"></a>
+    <div id="maket">
+        <header>
+      <div>
+        <div class="logo">
+            <a href="drawing.html">
+                <img src="images/sun.png" width="130" height="130"></a>
+            
+       </div>
+
+        <h1>Галерея пользователя</h1>
+
+        </div>
+        </header>
+    </div>
+    <main>
+        <div id="menu">
+            <div style="text-align: center; font-size: 45; font-style: bold; font-family: Arial, Helvetica, sans-serif;">Меню</div>
+            <ul class="cssmenu"  style="margin-bottom: 0px;" >
+                <nav>
+                <li><a href="index.html">Главная</a>
+                <li><a href="sun.html">Солнце</a>
+                <li><a href="mercuriy.html">Меркурий</a>
+                <li><a href="venera.html">Венера</a>
+                <li><a href="earth.html">Земля</a>
+                <li><a href="mars.html">Марс</a>
+                <li><a href="jupiter.html">Юпитер</a> 
+                <li><a href="saturn.html">Сатурн</a>
+                <li><a href="uran.html">Уран</a>
+                <li><a href="neptun.html">Нептун</a>
+                <li><a href="about.html">Общая информация</a>
+                <li><a href="form.html">Контакты и связь</a>
+                <li><a href="game.html">Развлечения</a>
+                <li><a href="drawing.html">Рисунки</a>
+                    <li><a href="adds.html">Объвления</a>
+                </nav>
+            </ul>
+        </div>
+        <div id="all">
+            <canvas id="myCanvas" width="500" height="500">                            
+            </canvas>
+            <SCRIPT> 
+                    
+                
+    let canvas = document.querySelector("canvas");  
+    let holst = canvas.getContext("2d");  
+    canvas.width=1050;  
+    canvas.height=600;  
+     holst.fillStyle="#9fd6a5";  
+    holst.fillStyle = ""
+    holst.fillRect(0,0,canvas.width,canvas.height);
+                
+                
+                 function drawBezier(){
+                     holst.moveTo(450, 450);
+
+                     let controlX1 = 780;
+                     let controlY1 = 400;
+                     let controlX2 = 720;
+                     let controlY2 = 630;
+                     let endX = 455;
+                     let endY = 40;
+
+                    holst.bezierCurveTo(controlX1, controlY1, controlX2, 
+                        controlY2, endX, endY);
+
+                    holst.lineWidth = 30;
+                    holst.strokeStyle = "#07255d"; 
+                    holst.stroke();
+                }
+                drawBezier()
+
+                function drawCircle(){
+
+                    let centerX = 450;
+                    let centerY = 375;
+                    let radius = 100;
+
+                    holst.beginPath();
+                    holst.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+
+                    holst.fillStyle = "#800000";
+                    holst.strokeStyle = "#800000";
+                    holst.fill();
+                    holst.lineWidth = 5;
+                    holst.stroke();
+                }
+                drawCircle()
+                
+                
+                 function drawCircle1(){
+
+                    let centerX = 450;
+                    let centerY = 250;
+                    let radius = 70;
+
+                        holst.beginPath();
+                        holst.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+
+                        holst.fillStyle = "#800000";
+                        holst.strokeStyle = "#800000";
+                        holst.fill();
+                        holst.lineWidth = 5;
+                        holst.stroke();
+                 }
+                drawCircle1()
+                
+                
+                holst.fillStyle = "#965508";
+                holst.fillRect(425,20,50,60);
+                
+                holst.fillStyle = "#965508";//гриф
+                holst.fillRect(430,70,40,230);
+                
+                
+            function drawCircle2(){
+                let centerX = 450;
+                let centerY = 330;
+                let radius = 40;
+
+                holst.beginPath();
+                holst.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+
+                holst.fillStyle = "#4e0202";
+                holst.fill();
+                holst.lineWidth = 5;
+                holst.stroke();
+            }
+                drawCircle2()
+                
+                holst.fillStyle = "#965508";//место прикрепления струн
+                holst.fillRect(425,400,45,10);
+
+                //колки
+                 holst.fillStyle = "black";
+                holst.fillRect(415,30,10,7);
+                holst.fillStyle = "black";
+                holst.fillRect(415,45,10,7);
+                holst.fillStyle = "black";
+                holst.fillRect(415,60,10,7);
+                holst.fillStyle = "black";
+                holst.fillRect(475,30,10,7);
+                holst.fillStyle = "black";
+                holst.fillRect(475,45,10,7);
+                holst.fillStyle = "black";
+                holst.fillRect(475,60,10,7);
+                
+                
+                
+                //Струны
+                 holst.beginPath();
+            holst.moveTo(459, 50);
+            holst.lineTo(459,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                  holst.beginPath();
+            holst.moveTo(439, 50);
+            holst.lineTo(439,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                  holst.beginPath();
+            holst.moveTo(443, 50);
+            holst.lineTo(443,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                  holst.beginPath();
+            holst.moveTo(447, 50);
+            holst.lineTo(447,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                  holst.beginPath();
+            holst.moveTo(451, 50);
+            holst.lineTo(451,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                  holst.beginPath();
+            holst.moveTo(455, 50);
+            holst.lineTo(455,400);
+            holst.lineWidth = 1;
+            holst.strokeStyle = "black"; 
+            holst.lineCap = "round";
+            holst.stroke();
+                
+                
+                
+              //треугольник  
+            holst.beginPath();
+            holst.moveTo(50, 30);
+            holst.lineTo(50,300);
+            holst.lineTo(100,300); 
+            holst.strokeStyle = "#f70b0b";
+            holst.fillStyle = "#075d32"; 
+            holst.fill();
+            holst.stroke();
+  
+            </SCRIPT>
+            
+            <script>
+
+window.onload = function() {
+    let canvas=document.getElementById("myCanvas");
+    let context=canvas.getContext("2d");
+
+    let rectWidth = 300;
+let rectHeight = 120;
+context.translate(canvas.width/1.2,canvas.height/1.2); 		
+context.scale(1,0.5);
+context.rotate(-Math.PI/4); 
+context.fillStyle="blue";
+context.fillRect(-rectWidth/2,-rectHeight/2,
+    rectWidth,rectHeight);
+context.font="50pt Calibri";
+context.textAlign="center";
+context.fillStyle="#ffffff";
+context.fillText("Guitar",3,10);
+
+}
+
+</script>
+        </div>
+    </main>
+<footer>
+    <h6><font color="#FFDAB9">© SolarSystem.ua, 2009-2020 | Все права защищены</font></h6>
+    </footer>
+   </body>
+</html>
