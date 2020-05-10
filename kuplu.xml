@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="kuplu.xsl"?>
+
+<advertisment>
+<buy>
+  <cd>
+    <number>1</number>
+    <good>Telescope</good>
+    <tel>0669032371</tel>
+    <price>2000</price>
+  </cd>
+  <cd>
+    <number>2</number>
+    <good>Eyepiece</good>
+    <tel>0983462398</tel>
+    <price>200</price>
+  </cd>
+  <cd>
+    <number>3</number>
+    <good>Telescope case</good>
+    <tel>0993459834</tel>
+    <price>1500</price>
+  </cd>
+  <cd>
+    <number>4</number>
+    <good>Photo adapter</good>
+    <tel>0663543664</tel>
+    <price>5000</price>
+  </cd>
+  <cd>
+    <number>5</number>
+    <good>Color filter</good>
+    <tel>0984567823</tel>
+    <price>1200</price>
+  </cd>
+    <cd>
+    <number>6</number>
+    <good>Solar filter</good>
+    <tel>0569834723</tel>
+    <price>1350</price>
+  </cd>
+ <cd>
+    <number>7</number>
+    <good>Moon filter</good>
+    <tel>0968903423</tel>
+    <price>2000</price>
+  </cd>
+  <cd>
+    <number>8</number>
+    <good>T-ring</good>
+    <tel>0553985335</tel>
+    <price>5000</price>
+  </cd>
+  <cd>
+    <number>9</number>
+    <good>Focus converter</good>
+    <tel>0445693746</tel>
+    <price>6544</price>
+  </cd>
+  <cd>
+    <number>10</number>
+    <good>Barlow lens</good>
+    <tel>0683457823</tel>
+    <price>3000</price>
+  </cd>
+  <cd>
+    <number>11</number>
+    <good>Mount</good>
+    <tel>0456903458</tel>
+    <price>800</price>
+  </cd>
+ 
+</buy>
+</advertisment>

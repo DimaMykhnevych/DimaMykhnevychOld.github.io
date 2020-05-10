@@ -3,7 +3,7 @@
      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/"> 
   <html>
-     <body background = "images/excurs.jpg">
+     <body background = "images/rocket.jpg">
     <h1 align="center"><font size="+9" color="#000434">Экскурсии</font></h1>
     <table border="1"  cellpadding="5" align="center">
       <tr bgcolor="#9acd32">
