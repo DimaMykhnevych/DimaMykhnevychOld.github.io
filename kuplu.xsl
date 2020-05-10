@@ -13,7 +13,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/">
           <th><font size="+3" color="#000434">Telephone</font></th>
       </tr>
       <xsl:for-each select="advertisment/buy/cd">
-      <tr bgcolor="rgba(64, 232, 232, 0.46)" width = "100" height = "60" align="center">
+      <tr bgcolor="#eb8510" width = "100" height = "60" align="center">
           <td width = "50"><xsl:value-of select="number"/></td>
           <td width = "100"><xsl:value-of select="good"/></td>
           <td width = "50"><xsl:value-of select="price"/></td>
