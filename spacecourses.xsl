@@ -4,65 +4,59 @@
 <xsl:template match="/"> 
        <html><body background = "images/desktopwallpapers.jpg">
     <h1 align="center"><font face="Century Gothic" color="#CD2990">
-          <xsl:value-of select="/uroki/skripka/name"/>
+          <xsl:value-of select="/uroki/astronomy/name"/>
     </font>
      </h1> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/skripka/adv"/>
+          <xsl:value-of select="/uroki/astronomy/adv"/>
      </h4> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/skripka/adv1"/>
+          <xsl:value-of select="/uroki/astronomy/adv1"/>
      </h4> 
 
     
     <h1 align="center"><font face="Century Gothic" color="#CD2990">
-          <xsl:value-of select="/uroki/pianino/name"/>
+          <xsl:value-of select="/uroki/mechanic/name"/>
     </font>
      </h1> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/pianino/adv"/>
+          <xsl:value-of select="/uroki/mechanic/adv"/>
      </h4> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/pianino/adv1"/>
+          <xsl:value-of select="/uroki/mechanic/adv1"/>
      </h4> 
     <h4 align="left">
-          <xsl:value-of select="/uroki/pianino/adv2"/>
+          <xsl:value-of select="/uroki/mechanic/adv2"/>
      </h4> 
     <h4 align="left">
-          <xsl:value-of select="/uroki/pianino/adv3"/>
+          <xsl:value-of select="/uroki/mechanic/adv3"/>
      </h4> 
     
         
     <h1 align="center"><font face="Century Gothic" color="#CD2990">
-          <xsl:value-of select="/uroki/truba/name"/>
+          <xsl:value-of select="/uroki/astrophysics/name"/>
     </font>
      </h1> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/truba/adv"/>
+          <xsl:value-of select="/uroki/astrophysics/adv"/>
      </h4> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/truba/adv1"/>
+          <xsl:value-of select="/uroki/astrophysics/adv1"/>
      </h4> 
     <h4 align="left">
-          <xsl:value-of select="/uroki/truba/adv2"/>
+          <xsl:value-of select="/uroki/astrophysics/adv2"/>
      </h4> 
     
     
      <h1 align="center"><font face="Century Gothic" color="#CD2990">
-          <xsl:value-of select="/uroki/guitar/name"/>
+          <xsl:value-of select="/uroki/cosmonavtika/name"/>
     </font>
      </h1> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/guitar/adv"/>
+          <xsl:value-of select="/uroki/cosmonavtika/adv"/>
      </h4> 
      <h4 align="left">
-          <xsl:value-of select="/uroki/guitar/adv1"/>
-     </h4> 
-    <h4 align="left">
-          <xsl:value-of select="/uroki/guitar/adv2"/>
-     </h4> 
-     <h4 align="left">
-          <xsl:value-of select="/uroki/guitar/adv3"/>
+          <xsl:value-of select="/uroki/cosmonavtika/adv1"/>
      </h4> 
            </body></html>
 </xsl:template>

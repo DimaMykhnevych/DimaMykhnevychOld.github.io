@@ -3,8 +3,8 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/">
     
   <html>
-       <body background = "images/musical-instruments.jpg">
-    <h1 align="center"><font size="+9" color="#000434">Buy/Sell</font></h1>
+       <body background = "images/space1.jpg">
+    <h1 align="center"><font size="+9" color="red">Buy/Sell</font></h1>
     <table border="1"  cellpadding="5" align="center">
       <tr bgcolor="#9acd32">
         <th><font size="+3" color="#000434">Number</font></th>
